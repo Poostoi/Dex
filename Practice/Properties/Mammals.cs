@@ -7,6 +7,7 @@ namespace Task_3_6_7
         public Mammals(string name):base(name){}
         private  void  Move()
         {
+            base.Move();
             Console.WriteLine(" бегает.");
         }
     }
