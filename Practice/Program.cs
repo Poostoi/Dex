@@ -30,7 +30,7 @@ namespace Practice
         }
         private void Task_3()
         {
-            Birds fish = new Birds("hh");
+            Birds fish = new Birds("hh");  //название переменной fish? для класса Bird? серьезно? переменные должны быть понятными
             fish.Move();
             
             var anim = new Animals[] {new Fish("Jon"), new Birds("Don"), new Mammals("Shiki")};
@@ -40,7 +40,7 @@ namespace Practice
             }
         }
 
-        private void Task_6()
+        private void Task_6()   //поторопись с реализацией следующих заданий, ибо сроки поджимают:)
         {
         }
         private void Task_7()
