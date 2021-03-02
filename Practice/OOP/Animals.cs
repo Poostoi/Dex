@@ -19,7 +19,7 @@ namespace Task_3_6_7
 
         public void Move()
         {
-            Console.Write(this.Name);
+            Console.Write(this.Name+" ");
         }
 
     }
