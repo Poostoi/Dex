@@ -3,6 +3,7 @@ using System.Runtime.CompilerServices;
 using Task_3_6_7;
 using System.Diagnostics;
 using System.Threading;
+using Practice.HomeWorkIQueryable;
 
 namespace Practice
 {
@@ -10,7 +11,7 @@ namespace Practice
     {
         public static void Main(string[] args)
         {
-            Console.Write("Выберите задание(3,6,7): ");
+            Console.Write("Выберите задание(3,6,7,8): ");
             string x = Console.ReadLine();
             Program p = new Program();
             switch (x)
@@ -22,6 +23,9 @@ namespace Practice
                     p.BoxingUnboxing();
                     break;
                 case "7":
+                    p.BasketEnumerator();
+                    break;
+                case "8":
                     p.BasketEnumerator();
                     break;
                 default:
@@ -65,6 +69,15 @@ namespace Practice
 
         private void BasketEnumerator()
         {
+        }
+
+        private void UsingIQueryable()
+        {
+            string[] nickname = new string[7] {"Poostoi", "Pustoi", "P00stoi", "Pystoi",
+                "Helge", "Helgeir", "Helgi"};
+            GenerateItem arrayItem = new GenerateItem();
+            arrayItem.Generate(nickname);
+            arrayItem.ConsoleOutput(10);
         }
     }
 }

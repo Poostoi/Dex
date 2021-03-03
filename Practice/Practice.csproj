@@ -39,6 +39,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasketEnumerator\ItemsInBasket.cs" />
+    <Compile Include="HomeWorkIQueryable\GenerateItem.cs" />
+    <Compile Include="HomeWorkIQueryable\Item.cs" />
+    <Compile Include="HomeWorkIQueryable\UsingMethodsIQueryable.cs" />
     <Compile Include="OOP\Animals.cs" />
     <Compile Include="OOP\Birds.cs" />
     <Compile Include="OOP\Fish.cs" />
